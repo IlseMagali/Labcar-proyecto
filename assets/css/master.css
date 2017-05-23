@@ -32,7 +32,7 @@ a:hover {
   font-weight: bold;
   background-color: white;
 }
-/*CLASES PRIMER SECCION - TAXI*/
+/*CLASES SECCIONES*/
 .contenedor-fondo {
   position:relative;
 }
@@ -40,6 +40,24 @@ a:hover {
   background-color: #f7b617;
   position:absolute;
 }
+/*CLASES DE SECCION EN GENERAL*/
 .encabezado {
+  color:white;
+}
+.borde-decorativo {
+  border-top:1px solid white;
+  border-right:1px solid white;
+  border-bottom:1px solid white;
+}
+.fila-amarilla {
+  padding-top:3%;
+  padding-bottom:3%;
+  background-color:#f7b617;
+}
+.fila-margen {
+  padding-top:1%;
+  padding-bottom:1%;
+}
+.texto-corrido {
   color:white;
 }
