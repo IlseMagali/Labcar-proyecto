@@ -24,13 +24,13 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-li > a {
+.link {
   color:black;
 }
 
-a:hover {
+.link:hover {
   font-weight: bold;
-  background-color: white;
+  background-color: transparent;
 }
 /*CLASES SECCIONES*/
 .contenedor-fondo {
@@ -105,4 +105,12 @@ footer {
   color:white;
   border:solid black 1px;
   border-radius: 5%;
+}
+
+.boton-borde-blanco {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  color:white;
+  padding:5px;
 }
