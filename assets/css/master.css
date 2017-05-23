@@ -84,9 +84,20 @@ a:hover {
 footer {
   background-color: #24292e;
 }
-
 .posicion-pie {
   display:flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+/*ESTILOS DE MODALES*/
+.login-fondo {
+  background-color: #1eb4ea;
+}
+
+.login-contenedor {
+  height: 600px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
