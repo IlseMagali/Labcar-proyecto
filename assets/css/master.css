@@ -1,13 +1,28 @@
+/*CLASES GENERALES*/
+body {
+  margin:0;
+  padding:0;
+}
 header {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: white;
 }
-
+.imagen-ancho {
+  width: 100%;
+}
+/*CLASES NAVEGADOR*/
+.navegador {
+  background-color: white;
+}
 .centro {
   display:flex;
   justify-content: center;
   align-items: center;
+}
+.margen {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 li > a {
   color:black;
@@ -16,4 +31,15 @@ li > a {
 a:hover {
   font-weight: bold;
   background-color: white;
+}
+/*CLASES PRIMER SECCION - TAXI*/
+.contenedor-fondo {
+  position:relative;
+}
+.contenedor-amarillo {
+  background-color: #f7b617;
+  position:absolute;
+}
+.encabezado {
+  color:white;
 }
