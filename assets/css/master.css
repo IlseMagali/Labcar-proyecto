@@ -55,9 +55,17 @@ a:hover {
   background-color:#f7b617;
 }
 .fila-margen {
-  padding-top:1%;
-  padding-bottom:1%;
+  padding-top:3%;
+  padding-bottom:3%;
 }
 .texto-corrido {
   color:white;
+}
+.boton {
+  border: 1px solid white;
+  border-radius: 1%;
+}
+.contenedor-mapa {
+  padding: 2%;
+  border: 1px solid white;
 }
