@@ -60,6 +60,7 @@ a:hover {
 }
 .texto-corrido {
   color:white;
+  list-style: none;
 }
 .boton {
   border: 1px solid white;
@@ -68,4 +69,14 @@ a:hover {
 .contenedor-mapa {
   padding: 2%;
   border: 1px solid white;
+}
+
+footer {
+  background-color: #24292e;
+}
+
+.posicion-pie {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
