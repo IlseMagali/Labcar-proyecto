@@ -93,11 +93,16 @@ footer {
 .login-fondo {
   background-color: #1eb4ea;
 }
-
 .login-contenedor {
   height: 600px;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+}
+.boton-register {
+  background-color: black;
+  color:white;
+  border:solid black 1px;
+  border-radius: 5%;
 }
